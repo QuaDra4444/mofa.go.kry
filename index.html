@@ -4,68 +4,84 @@
   <style>
     .wrapper {
       display: grid;
-      grid-template-columns: 1fr,250px,100px;
+      grid-template-columns: 242fr,368fr,368fr,240fr;
       grid-gap: 10px;
-      grid-auto-rows: repeat(2, 1fr);
+      grid-auto-rows: 800px,repeat(2, 1fr);
+    }
+    .top{
+      grid-column: 1/4;
+      grid-row: 1;
+      background-color: black;
+      color: white;
+      font-size: 40;
     }
     .one {
       grid-column: 1;
-      grid-row: 1;
+      grid-row: 2;
       border: 1px solid black;
     }
     .two {
       grid-column: 2 / 4;
-      grid-row: 1;
+      grid-row: 2;
       border: 1px solid black;
+      background-color: rgb(165,217,239);
     }
     .three {
       grid-column: 4;
-      grid-row: 1;
+      grid-row: 2;
       border: 1px solid black;
     }
     .four {
       grid-column: 1;
-      grid-row: 2;
+      grid-row: 3;
       border: 1px solid black;
     }
     .five {
         grid-column: 2 / 4;
-        grid-row: 2;
+        grid-row: 3;
         border: 1px solid black;
     }
     .six {
       grid-column: 4;
-      grid-row: 2;
+      grid-row: 3;
       border: 1px solid black;
     }
     .apply {
-      width: 33%;
+      width: 100%;
       height: 100%;
       font-size: 100%;
       border-radius: 10px;
-      background-color: black;
+      background-color: red;
       color: white;
+      text-align: center;
     }
   </style>
 </head>
 <body>
   <div class="wrapper">
+    <div class="top">
+      kRyNToPia Minister of Foreign Affairs
+    </div>
     <div class="one">
-      <img src="https://i.ibb.co/9rBLmCF/main333.jpg" alt="main333" border="0" width=100% height=100%>
+      <img src="https://i.ibb.co/Wz4Rgj5/1.jpg" alt="1" border="0" width=100%>
     </div>
     <div class="two">
-      <img src="https://i.ibb.co/Yc2gVHt/main-2.jpg" alt="main-2" border="0" width=100% height=100%>
+      <img src="https://i.ibb.co/tQyTgJM/2.jpg" alt="2" border="0" width=100%>
     </div>
     <div class="three">
-      <img src="https://i.ibb.co/9rBLmCF/main333.jpg" alt="main333" border="0" width=100% height=100%>
+      <img src="https://i.ibb.co/c2JKx8X/3.jpg" alt="3" border="0" width=100%>
     </div>
-    <div class="four">Four</div>
-    <div class="five">Five
+    <div class="four">
+      <img src="https://i.ibb.co/4N23rSD/4.jpg" alt="4" border="0" width=100%>
+    </div>
+    <div class="five">
       <button type = "button" class="apply" onclick="location.href='apply.html';">
-        Apply for Immigrant
+        <h2>Apply for Immigrant</h2>
       </button>
     </div>
-    <div class="six">Six</div>
+    <div class="six">
+      <img src="https://i.ibb.co/YjvpqMR/6.jpg" alt="6" border="0" width=100%>
+    </div>
   </div>
 </body>
 </html>
